@@ -57,20 +57,20 @@
 
 ## 기본형(primitive type)
 <pre>
-    <img src="../img/primitive_type.png" width="600" height="260" />
+    <img src="../img/primitive_type.png" width="450" height="195" />
 </pre>
 
 ## 상수와 리터럴(constant & literal)
 > 변수(variable) : 하나의 값을 저장하기 위한 공간
-  상수(constant) : 값을 한번만 저장할 수 있는 공간
-  리터럴(literal) : 그 자체로 값을 의미하는 것
+>
+>  상수(constant) : 값을 한번만 저장할 수 있는 공간
+> 
+>  리터럴(literal) : 그 자체로 값을 의미하는 것
 ```
     int year = 2014;            // year : 변수, 2014 : 리터럴
     final int MAX_SPEED = 10;   // MAX_SPEED : 상수
     [참고] 상수의 이름은 모두 대문자로 하는 것이 암묵적인 관례이며, 여러 단어로 이루어져 있는 경우 '_'로 구분한다.
 ```
-
-> 리터럴(literal)는 상수
 
 # 진법
 
