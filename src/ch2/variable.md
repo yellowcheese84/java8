@@ -36,8 +36,7 @@
   - PI, MAX_NUMBER
 ```
 
-* 변수의 이름
->짧을수록 좋지만 약간 길더라도 용도를 알기 쉽게 `의미있는 이름`으로 작성하자.
+>변수의 이름 짧을수록 좋지만 약간 길더라도 용도를 알기 쉽게 `의미있는 이름`으로 작성하자.
 변수의 선언문에 주석으로 변수에 대한 정보를 주는 것도 좋은 방법이다.
 ```
     int curPos = 0;     // 현재 위치(current position)
@@ -45,6 +44,7 @@
 ```
 
 # 변수의 타입
+> 값의 종류에 따라 값이 저장될 공간의 크기와 저장형식을 정의한 것이 자료형이며, 자료형은 크게 `기본형`과 `참조형`으로 나눌 수 있다.
 ```
 기본형(primitive type)
   - 논리형(boolean), 문자형(char), 정수형(byte, short, int, long), 실수형(float, double)
@@ -52,12 +52,25 @@
 
 참조형(reference type)
   - 객체의 주소를 저장한다. 8개의 기본형을 제외한 나머지 타입.
+  [참고] 메모리에는 1 byte단위로 일련번호가 붙어있는데, 이 번호를 메모리 주소라 한다.
 ```
 
 ## 기본형(primitive type)
 <pre>
-    <img src="../img/primitive_type.png" width="300" height="130" />
+    <img src="../img/primitive_type.png" width="600" height="260" />
 </pre>
+
+## 상수와 리터럴(constant & literal)
+> 변수(variable) : 하나의 값을 저장하기 위한 공간
+  상수(constant) : 값을 한번만 저장할 수 있는 공간
+  리터럴(literal) : 그 자체로 값을 의미하는 것
+```
+    int year = 2014;            // year : 변수, 2014 : 리터럴
+    final int MAX_SPEED = 10;   // MAX_SPEED : 상수
+    [참고] 상수의 이름은 모두 대문자로 하는 것이 암묵적인 관례이며, 여러 단어로 이루어져 있는 경우 '_'로 구분한다.
+```
+
+> 리터럴(literal)는 상수
 
 # 진법
 
