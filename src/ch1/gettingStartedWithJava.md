@@ -41,7 +41,7 @@ Oak는 처음에는 가전제품이나 PDA와 같은 소형기기에 사용될 �
    Java application은 여러 개의 클래스로 구성되어 있는데 실행 시에 모든 클래스가 로딩되지 않고 필요한 시점에 클래스를 로딩하여 사용할 수 있다. 또한 
 
 
-##JVM(JAva Virtual Machine)
+## JVM(JAva Virtual Machine)
 > Java를 실행하기 위한 가상 기계
 
 <pre>
