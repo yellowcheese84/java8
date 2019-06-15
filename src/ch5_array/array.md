@@ -7,7 +7,7 @@
 같은 타입의 여러 변수를 하나의 묶음으로 다루는 것
 ```
 
-<img src='./img/array_memory.jpg' width='472', height='156' />
+<img src='./img/array_memory.jpg' width='472' height='156' />
 
 변수와 달리 배열은 각 저장 공간이 연속적으로 배치되어 있다는 특징이 있다.
 
