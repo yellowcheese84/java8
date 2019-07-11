@@ -55,9 +55,10 @@ ex) Iterator 인터페이스를 구현하는 클래스에서 remove()
 ```
 
 * remove 메서드를 사용하는 경우 유의사항
-
-        Iterator의 remove()는 특정위치의 요소를 삭제하는 것이 아니라 읽어 온 것을 삭제하기 때문에 
-        단독으로 쓰일 수 없고, next() 호출 후에 사용할 수 있다. next()의 호출 없이 사용하게 되면 IllegalStateException이 발생한다.
+```text
+Iterator의 remove()는 특정위치의 요소를 삭제하는 것이 아니라 읽어 온 것을 삭제하기 때문에 
+단독으로 쓰일 수 없고, next() 호출 후에 사용할 수 있다. next()의 호출 없이 사용하게 되면 IllegalStateException이 발생한다.
+```
 
 
 
